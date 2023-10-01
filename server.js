@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
-// const server = require('http').Server(app);
-const server = require('http');
+const server = require('http').Server(app);
 var path = require('path');
 var cors = require('cors');
 
